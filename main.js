@@ -3,7 +3,7 @@ const {app, BrowserWindow} = require('electron');
 
 function createWindow () {
   const win = new BrowserWindow({
-    width: 800,
+    width: 400,
     height: 600,
   });
 
@@ -16,3 +16,4 @@ app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 
 });
+
