@@ -1,4 +1,4 @@
-const { app, BrowserWindow} = require('electron');
+const {app, BrowserWindow} = require('electron');
 
 
 function createWindow () {
@@ -14,4 +14,5 @@ app.whenReady().then(createWindow);
 
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
+
 });
