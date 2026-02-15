@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: rgb(59, 59, 55);
+  font-family: Verdana, sans-serif;
+  color: aliceblue
+}
+
+.centerbox {
+  width: 300px;
+  height: 150px;
+  
+  background: rgb(40, 80, 49);
+  
+  padding: 10px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.task {
+  text-align: center;
+  color: aliceblue;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: red;
+}
